@@ -3,10 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there
- *
- * greater than equal and les than*/
-int main(void)/*description*/
+/* betty style doc for function main goes there*/
+
+int main(void)
+	/*description*/
 {
 	int n;
 
