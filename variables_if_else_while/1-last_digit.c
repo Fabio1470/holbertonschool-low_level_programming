@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there
  *
  * greater than equal and les than*/
-int main(void)
+int main(void)/*description*/
 {
 	int n;
 
