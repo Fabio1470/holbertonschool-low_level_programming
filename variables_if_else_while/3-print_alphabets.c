@@ -10,7 +10,6 @@ int main()
 	{
 		putchar(lower);
 	}
-	putchar('\n');
 	for(upper = 'A';upper <= 'Z';upper++)
 	{
 		putchar(upper);
