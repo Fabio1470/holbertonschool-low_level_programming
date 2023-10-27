@@ -9,7 +9,7 @@ void puts_half(char *str)
 	}	
 	if((count % 2) == 1 )
 	{
-		count -= 1;
+		count += 1;
 	}
 	count = count / 2;
 	while(*(str + count) != '\0')

@@ -2,15 +2,17 @@
 
 void rev_string(char *s)
 {
-	int count = 0;
-	while(*(s + count) != '\0')
+	int i;
+	int lenght = 0;
+	char tmp;
+	while(s[lenght])
 	{
-		putchar(*(s + count));
-		count++;
+		lenght++;
 	}
-	while(count >= 0)
+	for(lenght--,i = 0;i < lenght / 2;lenght--,i++)
 	{
-		putchar(*(s + count));
-		count--;
+		tmp = s[lenght];
+		s[lenght] = s[i];
+		s[i] = tmp;
 	}
 }
