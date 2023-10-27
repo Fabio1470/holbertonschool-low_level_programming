@@ -7,6 +7,7 @@ void print_rev(char *s)
 	{	
 		count++;
 	}
+	count--;
 	while(count >= 0)
 	{
 		putchar(*(s + count));
